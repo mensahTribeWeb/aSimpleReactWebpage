@@ -1,3 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+.App{
+  max-width: 800px;
+  max-height: 800px;
+}
 body{
   padding:0;
   margin: 0;
@@ -44,10 +51,12 @@ h1{
   font-size: 1.4rem;
   text-align: center;
   justify-content: center;
-  margin-top: 200px;
+  margin: 0;
   background:rgba(142, 18, 18, 0.524);
   padding: 30px;
- max-width:100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
 
 }
